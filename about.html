@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html>
+<style>
+    body,
+    html {
+        height: 115%;
+        background-color: #e0deda;
+    }
+
+    .icon-margin {
+        margin-right: 15px;
+    }
+</style>
 
 <head>
-    <title>Title</title>
+    <title>Bakhti Baymukhamedov Photography</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/jpg" href="src/img/ico.svg" />
+    <meta name="description"
+        content="Bakhti Baymukhamedov is a fine art photographer. His images depict the beauty of nature, the skill of his hands, and the magic of everyday life. Many of his images are available as prints, greeting cards, and more." />
+    <meta name="robots" content="index, follow">
+    <meta name="keywords"
+        content="photography, photographer, photo, maker, author, artist, image, art, travel, landscape, architecture, urban, world" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="src/css/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit.min.js"></script>
@@ -13,36 +30,85 @@
     </script>
 </head>
 
-<body
-    style="background-color: #e0deda;">
+<body>
     <div class="nav">
-        <div class="logo"><a href="index.html"><img src="src/img/logo.svg""></a></div>
+        <div class="logo"><a href="index.html"><img src="src/img/logo.svg" width="400" height="100"
+                    alt="EndlessNights logo"></a></div>
         <div class=" menu">
-                <a class="menu-links" href="urban.html">URBAN</a>
-                | <a class="menu-links" href="landscapes.html">LANDSCAPES</a>
-                | <a class="menu-links" href="arch.html">ARCHITECTURE</a>
-                | <a class="menu-links" href="">TRAVEL GUIDES</a>
-                · <a class="menu-links" href="about.html">ABOUT ME</a>
+            <a class="menu-links" href="urban.html">URBAN</a>
+            | <a class="menu-links" href="landscapes.html">LANDSCAPES</a>
+            | <a class="menu-links" href="arch.html">ARCHITECTURE</a>
+            | <a class="menu-links" href="guides.html">TRAVEL GUIDES</a>
+            · <a class="menu-links" href="about.html">ABOUT ME</a>
         </div>
-        <div class="burger"><img src="src/img/burger.svg" width="50" onclick="myFunction()"></div>
+        <div class="burger"><img src="src/img/burger.svg" width="50" height="50" alt="Mobile menu"
+                onclick="myFunction()"></div>
         <div style="display: none;" id="burger-menu">
             <a class="burger-text" href="urban.html">URBAN</a><br>
             <a class="burger-text" href="landscapes.html">LANDSCAPES</a><br>
             <a class="burger-text" href="arch.html">ARCHITECTURE</a><br>
-            <a class="burger-text" href="">TRAVEL GUIDES</a><br>
+            <a class="burger-text" href="guides.html">TRAVEL GUIDES</a><br>
             <a class="burger-text" href="about.html">ABOUT ME</a>
         </div>
     </div>
     <div class="uk-container">
         <div class="uk-child-width-1-2@s uk-text-center" uk-grid>
             <div>
-                <div class="uk-card uk-card-default uk-card-body card-300" style="background-image: url(src/img/about.webp);background-size: cover;border-radius: 50px 0px 0px 50px;"></div>
+                <div class="uk-card uk-card-default uk-card-body card-300 uk-animation-fade"
+                    style="background-image: url(src/img/about.webp);background-size: cover;border-radius: 50px 0px 0px 50px;">
+                </div>
             </div>
             <div>
-                <div class="uk-card uk-card-default uk-card-body card-300" style="border-radius: 0px 50px 50px 0px;">Hi, I'm Bakhti Baymukhamedov - Freelance photographer from planet Earth.<br />Languages spoken: English, Russian.<br />Gear: Canon EOS 6D, EF 17-40L f/4 USM<br />Now Located in Astana, Kazakhstan</div>
+                <div class="uk-card uk-card-default uk-card-body card-300 uk-animation-slide-right-medium"
+                    style="border-radius: 0px 50px 50px 0px;">
+                    Bakhti Baymukhamedov is a 28-year-old Freelance photographer from planet Earth.<br />Languages
+                    spoken: English, Russian.<br />Gear: Canon EOS 6D, EF 17-40L f/4 USM<br />Now Located in Astana,
+                    Kazakhstan<br /><br />
+                    <a href="https://t.me/pycarrot2" target="_blank"><img class="icon-margin" src="src/img/telegram.svg"
+                            width="50" height="50" alt="Telegram icon"></a>
+                    <a href="https://www.linkedin.com/in/bakhtib/" target="_blank"><img class="icon-margin"
+                            src="src/img/linkedin.svg" width="50" height="50" alt="Telegram icon"></a>
+                    <a href="https://github.com/endlessnights" target="_blank"><img src="src/img/github.svg" width="50"
+                            height="50" alt="Telegram icon"></a>
+                </div>
+            </div>
+        </div><br />
+        <h2 class="footer uk-animation-slide-bottom-medium">My other projects</h2>
+        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default card-550 card-radus-25 uk-animation-slide-bottom-medium">
+                    <div class="uk-card-media-top">
+                        <img src="src/img/geekcv.png" class="mt-3" width="300" height="300" alt="GeekCV.io Logo">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">GeekCV.io</h3>
+                        <p>Create your professional bio using this service. You can create endless resumes for your
+                            family and you, upload photos, show your Github repositories and Stackoverflow stats.<br />
+                            <a href="https://geekcv.io" target="_blank">
+                                <img class="icon-margin" src="src/img/link.svg" width="32" height="32"
+                                    alt="Link to website">
+                            </a>
+                            <a href="https://www.producthunt.com/products/geekcv-io" target="_blank"><img
+                                    src="src/img/product-hunt.svg" width="32" height="32" alt="Product Hunt link"></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default card-550 card-radus-25 uk-animation-slide-bottom-medium">
+                    <div class="uk-card-media-top">
+                        <img src="src/img/geekhero.webp" class="mt-3" width="300" height="300"
+                            alt="GeekHero.pro splash">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">GeekHero.pro</h3>
+                        <p>Bakhti Baymukhameov's and his friends' IT blog where you can read some articles about networking, programming, administrating, web, python learning<br /><a href="https://geekhero.pro" target="_blank"><img class="icon-margin"
+                                    src="src/img/link.svg" width="32" height="32" alt="Link to website"></a></p>
+                    </div>
+                </div>
             </div>
         </div>
-        <img src="src/img/about-bottom2.webp" class="about-bottom">
+        <!-- <img src="src/img/about-bottom2.webp" class="about-bottom"> -->
     </div>
 </body>
 

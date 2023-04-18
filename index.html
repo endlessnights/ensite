@@ -1,44 +1,70 @@
 <!DOCTYPE html>
 <html>
-	<style>
-		body, html {
-			height: 100%;
-		}
-	</style>
-<head>
-	<title>Bakhti Baymukhamedov Photography</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/jpg" href="src/img/ico.svg"/>
-	<meta name="description" content="Bakhti Baymukhamedov is a fine art photographer. His images depict the beauty of nature, the skill of his hands, and the magic of everyday life. Many of his images are available as prints, greeting cards, and more." />
-    <meta name="robots" content="index, follow">
-    <meta name = "keywords" content = "photography, photographer, photo, maker, author, artist, image, art, travel, landscape, architecture, urban, world" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/css/uikit.min.css" />
-	<link rel="stylesheet" href="src/css/styles.css" />
-	<script src="src/js/scripts.js" ></script>
-	<script>
-	</script>
-</head>
-<body>
-<div class="container-index">
-	<div class="nav">
-	<div class="logo"><a href="index.html"><img src="src/img/logo.svg" width="400" height="100" alt="EndlessNights logo"></a></div>
-	<div class="menu">
-		<a class="menu-links" href="urban.html">URBAN</a>
-		 | <a class="menu-links" href="landscapes.html">LANDSCAPES</a>
-		  | <a class="menu-links" href="arch.html">ARCHITECTURE</a>
-		   | <a class="menu-links" href="guides.html">TRAVEL GUIDES</a>
-		    · <a class="menu-links" href="about.html">ABOUT ME</a>
-		</div>
-	<div class="burger"><img src="src/img/burger.svg" width="50" height="50" alt="Mobile menu" onclick="myFunction()"></div>
-	<div style="display: none;" id="burger-menu">
-		<a class="burger-text" href="urban.html">URBAN</a><br>
-		<a class="burger-text" href="landscapes.html">LANDSCAPES</a><br>
-		<a class="burger-text" href="arch.html">ARCHITECTURE</a><br>
-		<a class="burger-text" href="guides.html">TRAVEL GUIDES</a><br>
-		<a class="burger-text" href="about.html">ABOUT ME</a>
-	</div>
-</div>
-</div>
-</body>
+   <style>
+      body, html {
+      height: 100%;
+      }
+   </style>
+   <head>
+      <title>Bakhti Baymukhamedov Photography</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" type="image/jpg" href="src/img/ico.svg"/>
+      <meta name="description" content="Bakhti Baymukhamedov is a fine art photographer. His images depict the beauty of nature, the skill of his hands, and the magic of everyday life. Many of his images are available as prints, greeting cards, and more." />
+      <meta name="robots" content="index, follow">
+      <meta name = "keywords" content = "photography, photographer, photo, maker, author, artist, image, art, travel, landscape, architecture, urban, world" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.15/dist/css/uikit.min.css" />
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.15/dist/js/uikit.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.15/dist/js/uikit-icons.min.js"></script>
+      <link rel="stylesheet" href="src/css/styles.css" />
+      <script src="src/js/scripts.js" ></script>
+      <script></script>
+   </head>
+   <body>
+      <div class="nav">
+         <div class="logo" style="z-index:2"><a href="index.html"><img src="src/img/logo.svg" width="400" height="100" alt="EndlessNights logo"></a></div>
+         <div class="menu" style="z-index:2">
+            <a class="menu-links" href="urban.html">URBAN</a>
+            | <a class="menu-links" href="landscapes.html">LANDSCAPES</a>
+            | <a class="menu-links" href="arch.html">ARCHITECTURE</a>
+            · <a class="menu-links" href="about.html">ABOUT ME</a>
+         </div>
+         <div class="burger" style="z-index:2;"><img src="src/img/burger.svg" width="50" height="50" alt="Mobile menu" onclick="myFunction()"></div>
+         <div style="display: none;" id="burger-menu">
+            <a class="burger-text" href="urban.html">URBAN</a><br>
+            <a class="burger-text" href="landscapes.html">LANDSCAPES</a><br>
+            <a class="burger-text" href="arch.html">ARCHITECTURE</a><br>
+            <a class="burger-text" href="about.html">ABOUT ME</a>
+         </div>
+      </div>
+      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade; autoplay: true; autoplay-interval: 7000; pause-on-hover: false">
+         <ul class="uk-slideshow-items" uk-height-viewport>
+            <li>
+               <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                  <img src="landscapes/big/9-4.webp" alt="" uk-cover>
+               </div>
+            </li>
+             <li>
+               <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+                  <img src="landscapes/big/2.webp" alt="" uk-cover>
+               </div>
+            </li>
+             <li>
+               <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+                  <img src="landscapes/big/32.webp" alt="" uk-cover>
+               </div>
+            </li>
+             <li>
+               <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-right">
+                  <img src="landscapes/big/9-1.webp" alt="" uk-cover>
+               </div>
+            </li>
+             <li>
+               <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+                  <img src="landscapes/big/31.webp" alt="" uk-cover>
+               </div>
+            </li>
+         </ul>
+      </div>
+   </body>
 </html>

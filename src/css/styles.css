@@ -1,11 +1,10 @@
 body,
 html {
-    height: 100%;
     width: 100%;
 }
 
 .container-index {
-    background-image: url("../../src/img/bg2.webp");
+/*    background-image: url("../../src/img/bg2.webp");*/
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,7 +57,7 @@ html {
 
 #burger-menu {
     position: absolute;
-    z-index: 1;
+    z-index: 10;
     top: 100px;
     right: 16px;
     display: none;
@@ -80,18 +79,29 @@ html {
     border-radius: 3px;
     margin: 3px 3px 5px 3px
 }
+.card-radus-25 {
+    border-radius: 25px;
+}
 .card-300 {
     /* height: 32vh; */
     height: 350px;
     z-index: 1;
     text-align: left;
-    font-size: 2.8vh;
+    font-size: 2.6vh;
+}
+.card-550 {
+    /* height: 32vh; */
+    height: 550px;
+    z-index: 1;
 }
 
 .footer {
     text-align: center;
     margin-top: 25px;
     padding-bottom: 10px;
+}
+.mt-3 {
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 1660px) {
